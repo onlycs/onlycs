@@ -16,12 +16,14 @@ In order of how much I like them
     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg"
     height=42
     alt="rust logo"
+    style="display:inline-block"
   >
 
   <img
     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
     height=42
     alt="c logo"  
+    style="display:inline-block"
   />
 
   <img
