@@ -11,7 +11,7 @@
 
 In order of how much I like them
 
-<div float="left">
+<div align="left">
   <img
     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg"
     height=42
