@@ -63,7 +63,7 @@ In order of how much I like them
     alt="lua logo"  
   />
   <img
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original-wordmark.svg"
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg"
     height=42
     alt="dart logo"  
   />
