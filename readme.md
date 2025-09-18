@@ -2,7 +2,7 @@
 
 ## About Me
 
-* Junior in High School
+* Senior in High School
 * Programming Lead of FRC Team 2791
 * Writing code since 2017
 * I use arch, btw
@@ -23,11 +23,6 @@ In order of how much I like them
     alt="c logo"  
   />
   <img
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"
-    height=64
-    alt="python logo"  
-  />
-  <img
     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg"
     height=64
     alt="kotlin logo"  
@@ -38,24 +33,19 @@ In order of how much I like them
     alt="c++ logo"  
   />
   <img
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"
+    height=64
+    alt="python logo"  
+  />
+  <img
     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
     height=64
     alt="typescript logo"  
   />
   <img
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg"
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
     height=64
-    alt="nuxtjs logo"  
-  />
-  <img
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
-    height=64
-    alt="nextjs logo"  
-  />
-  <img
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
-    height=64
-    alt="html logo"  
+    alt="csharp logo"  
   />
   <img
     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/lua/lua-original.svg"
@@ -66,6 +56,16 @@ In order of how much I like them
     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg"
     height=64
     alt="dart logo"  
+  />
+  <img
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg"
+    height=64
+    alt="go logo"  
+  />
+  <img
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg"
+    height=64
+    alt="bash logo"  
   />
   <img
     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg"
@@ -80,7 +80,7 @@ In order of how much I use them, cuz I love them all.
 
 <div float="left">
     <img
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/archlinux/archlinux-original.svg"
     height=64
     alt="Linux logo"  
   />
