@@ -1,34 +1,37 @@
-# Introduction? I guess
+# Hi, I'm Angad
 
-Hello, I'm Angad.
-
-I do coding things. To be entirely honest, my projects are kind of all over the place. Here are some of my favorites though:
+I build projects across physics simulation, robotics, and random developer tools. Here are some of my favorites.
 
 ## Projects
 
-### [`fluidsim`](https://codeberg.org/tendulkar/fluidsim)
+### `fluidsim`
 
-A 2D SPH simulation I recently upgraded to 3D to show off for my AP Physics final project. Very much inspired by Sebastian Lague's first video. I used Rust with wgpu for the CPU side of things, and `rust-gpu` (which compiles to SPIR-V) for the GPU shaders, and absolutely no game engine after I finished the initial prototype.
+A 2D SPH fluid simulation that I upgraded to 3D for my AP Physics final project. Sebastian Lague's [first fluid simulation video](https://www.youtube.com/watch?v=rSKMYc1CQHE) was a big inspiration. Somehow, I managed to write everything in Rust, including `wgpu` for the host code and `rust-gpu` for the shaders, which compiled to SPIR-V.
 
-Read a bit more about [the process of creating the 2D version](https://angad.page/blog/fluid-simulation/) and [upgrading to 3D](https://angad.page/blog/fluid-simulation-in-3-dimensions/)
+I wrote about [making the 2D version](https://angad.page/blog/fluid-simulation/) and [dragging it into the third dimension](https://angad.page/blog/fluid-simulation-in-3-dimensions/).
 
-### [`attendance`](https://codeberg.org/tendulkar/attendance)
+### `attendance`
 
-A wonderful FRC-focused attendance tracking system, complete with an E2EE student database backed by webassembly on the client end, a completely generated [OpenAPI schema](https://attendance.team2791.org/api/docs), and [the best Vue form library ever written](https://codeberg.org/tendulkar/attendance/src/branch/main/app/utils/form).
+An attendance system for FRC teams, because Google Forms and spreadsheets were kind of a pain. It has an end-to-end encrypted student database with WebAssembly on the client, a [generated OpenAPI schema](https://attendance.team2791.org/api/docs), and [the only fully-typesafe form library I've ever seen](https://codeberg.org/tendulkar/attendance/src/branch/main/app/utils/form).
 
-### [`jasmine`](https://codeberg.org/tendulkar/jasmine)
+### `angadOS`
 
-Initially a janky ass programming language that transpiled something with a bit less boilerplate to Java source code, I'm currently working on hacking rustc to get the same effect (i.e. handwritten-ish Java code) but with actual Rust this time around.
+A tiny and work-in-progress operating system for RISC-V, written in Rust (for some reason) from scratch. It's on ice while I work on other stuff, but I hope to come back to it and hopefully do a large portion in C.
 
-### [`protein`](https://github.com/team2791/protein-2026)
+### `jasmine`
 
-Although not entirely a solo project, my biggest personal accomplishment in the 2026 FRC season was pioneering the use of a Meta Quest 3S to replace PhotonVision entirely, giving us the most accurate localization we've ever had AND getting us an Innovation in Controls award, finally completing our [award hexfecta](https://bcr2200.github.io/hexfecta/html_output/2791.html). This also enabled me to redesign autos to a position-based pathfinder rather than a velocity-based one, which was significantly more reliable than anything our team had ever put out before.
+This started as a janky programming language that transpiled Rust-ish code into Java, mostly because I was taking AP Computer Science and did not enjoy writing boilerplate. I'm now messing with `rustc` to see if I can get the same sort of Java output from actual Rust.
 
-I could never have done this without the help of [Dev Bhatia](https://github.com/dev-glitch), Naomi Li, or [Sidney Xia](https://github.com/sxia123).
+### `kbnt` -- Keyboard over NetworkTables
 
-Named after this wonderful old game piece I found at our practice field.
-![Protein](https://codeberg.org/tendulkar/.profile/raw/branch/main/protein.jpg)
+We got fancy new controllers with extra paddles which could act as keyboard keys, but not as seperate controller buttons. I wrote an itty-bitty Rust program, making use of some low-level Windows API hooks to catch those keypresses and send them to the robot.
 
-### [`mensura`](https://codeberg.org/tendulkar/mensura)
+It also got [flagged as a keylogger by my school’s antivirus](https://angad.page/blog/kbnt/).
 
-Even though this took me like a day to make, this is hands-down _the_ library I will be using if I ever mess with anything physics-related again. `uom` takes too long to compile, what can I say?
+### `mensura`
+
+A units-of-measure library I made in about a day and will probably use for every physics-related project from here on out. `uom` takes too long to compile, what else can I say?
+
+### Other rabbit holes
+
+I contributed [dynamic NetworkTables struct parsing](https://github.com/Gold872/elastic_dashboard/pull/225) to Elastic Dashboard, maintain a k3s homelab (public ArgoCD coming soon). and once made a proof-of-concept chessboard that moved pieces with electromagnets.
